@@ -24,6 +24,7 @@ export const GameScreen = () => {
   const [story, setStory] = useState<TStory>();
 
   const scrollViewRef = useRef<ScrollView>(null);
+
   const [scrollToBottom, setScrollToBottom] = useState(true);
   const [currentScrollYPos, setCurrentScrollYPos] = useState(0);
   const [lastScrollYPos, setLastScrollYPos] = useState(0);
